@@ -30,7 +30,7 @@ function savecvs() {
 
 function check() {
     httpPost(
-        "http://127.0.0.1:5000/get/eight",
+        "http://3.85.233.38:5000/get/eight",
         "json", { data: mycnvs.canvas.toDataURL() },
         (res) => {
             document.getElementById("output").innerHTML = `Parkinson's :- ${
